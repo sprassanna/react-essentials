@@ -5,7 +5,7 @@ import App from './App';
  
 
 ReactDOM.render(
- React.createElement("h1",null,"Welcome to JavaScript"),
+ React.createElement("h1",{style : {color:"red"}},"Welcome to JavaScript"),
   document.getElementById('root')
 );
 
