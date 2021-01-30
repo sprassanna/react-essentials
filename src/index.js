@@ -5,9 +5,7 @@ import App from './App';
  
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+ React.createElement("h1",null,"Welcome to JavaScript"),
   document.getElementById('root')
 );
 
